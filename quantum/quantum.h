@@ -20,6 +20,8 @@
 #include <avr/pgmspace.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#else
+#include <pgmspace.h>
 #endif
 #include "wait.h"
 #include "matrix.h"
